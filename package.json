@@ -1,0 +1,42 @@
+{
+  "name": "graphql-default-owner-transformer",
+  "version": "1.0.0",
+  "description": "Force a field to take the authenticated user's username (iam)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aws-amplify/amplify-cli.git",
+    "directory": "packages/graphql-default-owner-transformer"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "node node_modules/gts/build/src/cli.js lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "keywords": [
+    "graphql",
+    "appsync",
+    "aws",
+    "amplify"
+  ],
+  "author": "Sirvan Almasi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "gts": "^3.1.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@aws-amplify/graphql-transformer-core": "^0.14.0",
+    "graphql": "^16.0.1",
+    "graphql-transformer-common": "^4.22.2"
+  }
+}

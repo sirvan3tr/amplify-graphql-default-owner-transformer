@@ -1,0 +1,1 @@
+# graphql-default-owner-transformer
