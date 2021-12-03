@@ -11,6 +11,9 @@ to take the owner's username.
 ### Install
 `coming soon`
 
+#### Dev
+`yarn install`
+
 ### How to use
 ```graphql
 type Post @model {

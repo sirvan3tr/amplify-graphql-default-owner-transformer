@@ -4,7 +4,7 @@
   "description": "Force a field to take the authenticated user's username (iam)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws-amplify/amplify-cli.git",
+    "url": "https://github.com/sirvan3tr/graphql-default-owner-transformer",
     "directory": "packages/graphql-default-owner-transformer"
   },
   "main": "lib/index.js",
@@ -28,7 +28,7 @@
     "amplify"
   ],
   "author": "Sirvan Almasi",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.11.2",
     "gts": "^3.1.0",
@@ -36,7 +36,9 @@
   },
   "dependencies": {
     "@aws-amplify/graphql-transformer-core": "^0.14.0",
+    "@aws-amplify/graphql-transformer-interfaces": "^1.12.3",
     "graphql": "^16.0.1",
+    "graphql-mapping-template": "^4.20.1",
     "graphql-transformer-common": "^4.22.2"
   }
 }

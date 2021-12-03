@@ -47,7 +47,7 @@
     ts-dedent "^2.0.0"
     vm2 "^3.9.5"
 
-"@aws-amplify/graphql-transformer-interfaces@1.12.3":
+"@aws-amplify/graphql-transformer-interfaces@1.12.3", "@aws-amplify/graphql-transformer-interfaces@^1.12.3":
   version "1.12.3"
   resolved "https://registry.yarnpkg.com/@aws-amplify/graphql-transformer-interfaces/-/graphql-transformer-interfaces-1.12.3.tgz#57276f5247630fd74293a6fc69961da60c5add09"
   integrity sha512-InNJu4RCvvPUQjYLX0Z8XFy2qX7lSPz0uLtRbVPdgkYJXSlhzt3pYtZZAuHx3t2B1hNgScfiSUZfFoOObCLPKQ==
@@ -1539,7 +1539,7 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
   integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
 
-graphql-mapping-template@4.20.1:
+graphql-mapping-template@4.20.1, graphql-mapping-template@^4.20.1:
   version "4.20.1"
   resolved "https://registry.yarnpkg.com/graphql-mapping-template/-/graphql-mapping-template-4.20.1.tgz#2942dc11a0e56293ce861a310173431ca96dfbae"
   integrity sha512-VPVz9fIkfAQzU1kiwtxytqsmM3lKmuC8PLl8q2C9IraFiBh+TFnyPA3BQer39lbbkZW0Mq/yPQXFR8yU+yw1FA==
