@@ -9,7 +9,11 @@ found it to be buggy and not always work. This is like forcing a field
 to take the owner's username.
 
 ### Install
-`coming soon`
+#### Yarn
+`yarn add graphql-default-owner-transformer `
+
+#### npm
+`npm i graphql-default-owner-transformer`
 
 #### Dev
 `yarn install`
