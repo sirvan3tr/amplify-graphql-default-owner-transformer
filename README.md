@@ -1,4 +1,6 @@
 # @owner directive
+[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
+
 This `@owner` directive on the GraphQL schema for the AWS Amplify API framework
 will force the field to take the IAM user's username.
 

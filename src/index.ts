@@ -1,3 +1,3 @@
-import { DefaultOwnerTransformer } from "./graphql-default-owner-transformer";
+import {DefaultOwnerTransformer} from './graphql-default-owner-transformer';
 
 export default DefaultOwnerTransformer;
