@@ -38,10 +38,10 @@ type DefaultValueDirectiveConfiguration = {
 
 const directiveName = 'owner';
 const directiveDefinition = `
-  directive @${directiveName}(value: String) on FIELD_DEFINITION
+  directive @${directiveName} on FIELD_DEFINITION
 `;
 
-export const DEFAULT_COGNITO_IDENTITY_CLAIM = 'cognito:username';
+const DEFAULT_COGNITO_IDENTITY_CLAIM = 'cognito:username';
 
 const getIdentityClaimExp = (
   value: Expression,
@@ -74,7 +74,7 @@ export class DefaultOwnerTransformer extends TransformerPluginBase {
   private directiveMap = new Map<string, DefaultValueDirectiveConfiguration[]>();
 
   constructor() {
-    super('graphql-default-owner-transformer', directiveDefinition);
+    super('amplify-graphql-default-owner-transformer', directiveDefinition);
   }
 
   field = (

@@ -1,13 +1,13 @@
 {
-  "name": "graphql-default-owner-transformer",
+  "name": "amplify-graphql-default-owner-transformer",
   "version": "1.0.0",
   "description": "Force a field to take the authenticated user's username (iam)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sirvan3tr/graphql-default-owner-transformer"
+    "url": "https://github.com/sirvan3tr/amplify-graphql-default-owner-transformer"
   },
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
